@@ -1,0 +1,1 @@
+import{j as o}from"./index-C2HzGy_n.js";const s=({keyword:a,setKeyword:r})=>{const t=e=>{e.preventDefault(),r(e.target.value.toLowerCase())};return o.jsx("input",{type:"search",placeholder:"Filter",value:a,onChange:t,className:"form-control mb-4"})};export{s as L};
