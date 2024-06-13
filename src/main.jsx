@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
@@ -15,7 +15,7 @@ const store = configureStore({
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
-    <BrowserRouter basename="/react-ecommerce-front/">
+    <HashRouter basename="/react-ecommerce-front/">
       <SideDrawer />
       <App />
       <ToastContainer
@@ -30,6 +30,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         pauseOnHover
         theme="dark"
       />
-    </BrowserRouter>
+    </HashRouter>
   </Provider>
 );
