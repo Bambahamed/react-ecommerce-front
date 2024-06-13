@@ -1,1 +1,0 @@
-import{r as s,a as o,j as n}from"./index-C2HzGy_n.js";const u=()=>{const[e,r]=s.useState(5),t=o();return s.useEffect(()=>{const a=setInterval(()=>{r(c=>--c)},1e3);return e===0&&t("/"),()=>clearInterval(a)},[e,t]),n.jsx("div",{className:"container p-5 text-center",children:n.jsxs("p",{children:["Redirecting you in ",e," seconds"]})})};export{u as L};

@@ -1,1 +1,0 @@
-import{b as r,j as s}from"./index-C2HzGy_n.js";import{L as a}from"./LoadingToRedirect-qjt7J8yX.js";const m=({children:t,...n})=>{const{user:e}=r(o=>({...o}));return e&&e.token?t:s.jsx(a,{})};export{m as default};
